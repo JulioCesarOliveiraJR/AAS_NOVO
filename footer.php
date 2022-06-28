@@ -1,0 +1,106 @@
+<footer id="footer" class="mtp">
+    <section class="footer_1">
+        <section class="container-fluid container">
+            <section class="row-fluid">
+                <section class="span12 first" id="footer_main">
+                    <section class="span3 first widget">
+                        <h4>Horário de Funcionamento <span> </span> <span class="h-line"></span> </h4>
+                        <i class="icon-time"></i> Seg a Sex: 08:00 às 17:30<br>
+                    </section>
+                    <section class="span4 widget popular_post">
+                        <h4>Contato <span> </span> <span class="h-line"></span> </h4>
+                        <ul id="popular_post">
+                            <li style="height: 33px"> <span> <i class="icon-mobile-phone"></i> </span> (14)
+                                99655-2822 </li>
+                            <li style="height: 33px"> <span> <i class="icon-envelope-alt"></i> </span>
+                                <p> associacaoamigosolidario@gmail.com.br </p>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="widget span5">
+                        <h4>Menu <span> </span> <span class="h-line"></span> </h4>
+                        <ul class="footer_nav">
+                            <li><a href="index.html" title="Home"> Inicio</a></li>
+                            <li><a title="A ONG" href="#"> A ONG </a></li>
+                            <li><a href="page/empresa.html">SOBRE A ONG</a></li>
+                            <li><a href="page/artigo/historia-da-ong.html">HISTÓRICO</a></li>
+                            <li><a href="page/equipe.html">EQUIPE</a></li>
+                            <li><a href="page/galerias/tunel-do-tempo.html">TÚNEL DO TEMPO</a></li>
+                            <li><a href="page/faqs.html">DÚVIDAS FREQUENTES</a></li>
+                            <li>
+                                <a href="page/galerias/galeria.html" title="GALERIAS DE FOTOS"> GALERIAS DE
+                                    FOTOS</a>
+                            </li>
+                            <li>
+                                <a href="page/videos.html" title="GALERIAS DE VÍDEOS"> GALERIAS DE VÍDEOS</a>
+                            </li>
+                            <li>
+                                <a href="page/downloads/transparencia.html" title="TRANSPARENCIA">
+                                    TRANSPARENCIA</a>
+                            </li>
+                            <li>
+                                <a href="page/contato.html" title="Contato"> Contato</a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+
+
+    <section class="footer_2">
+        <section class="container-fluid container">
+            <section class="row-fluid">
+                <figure class="span8" id="footer_left">
+                    <p> Copyright © 2022 - Todos os direitos reservados - Desenvolvido por <a href="https://inovar-ti.com.br" target="_blank"> Inovar-TI </a></p>
+                </figure>
+            </section>
+        </section>
+    </section>
+</footer>
+</div>
+
+<script type="text/javascript" src="views/layout/aas/js/lib-1-9-1.js"></script><!-- lib Js -->
+<script type="text/javascript" src="views/layout/aas/js/modernizr.js"></script><!-- Modernizr -->
+<script type="text/javascript" src="views/layout/aas/js/easing.js"></script><!-- Easing js -->
+<script type="text/javascript" src="views/layout/aas/js/bootstrap.js"></script><!-- Bootstrap -->
+
+<script type="text/javascript" src="views/layout/aas/js/bxslider.js"></script>
+<script type="text/javascript" src="views/layout/aas/js/moment.min.js"></script>
+<script type="text/javascript" src="views/layout/aas/js/calendar.js"></script>
+<script type="text/javascript" src="views/layout/aas/js/prettyPhoto.js"></script>
+
+<script type="text/javascript" src="views/layout/aas/js/social.js"></script>
+<!-- Social Media Hover Effect -->
+<script type="text/javascript" src="views/layout/aas/js/countdown.js"></script><!-- Event Counter -->
+<script type="text/javascript" src='views/layout/aas/js/qtip.js'></script>
+<script type="text/javascript" src="views/layout/aas/js/custom.js"></script><!-- Custom / Functions -->
+
+<script type="text/javascript">
+    var austDay = new Date();
+    austDay = new Date(2022 + 0, 07 - 1, 09, 16, 00)
+    $('#countdown162').countdown({
+        until: austDay
+    });
+</script>
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "url": "http://centroavareense.com.br/",
+        "name": "",
+        "logo": "http://centroavareense.com.br/logo.jpg",
+        "sameAs": [""],
+        "contactPoint": [{
+            "@type": "ContactPoint",
+            "telephone": "",
+            "contactType": "customer service"
+        }]
+    }
+</script>
+
+</body>
+</html>
